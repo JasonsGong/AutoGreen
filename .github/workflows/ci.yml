@@ -20,5 +20,5 @@ jobs:
           git config --local user.name "JasonsGong"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
-          git commit --allow-empty -m "Make Program Every Day!"
+          git commit --allow-empty -m "Commit Every Day!"
           git push
